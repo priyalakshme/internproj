@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(img/hero.jpg);
+}
+.container {
+  position: relative;
+  width: 256px;
+  height: 256px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  position: absolute;
+  width: 400px;
+}
+.login-box form {
+  width: 100%;
+  padding: 0 50px;
+}
+h2 {
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  margin-bottom: 600px;
+}
+.input-box {
+  position: relative;
+  margin: 25px 0px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: 2px solid yellow;
+  outline: none;
+  font-size: 1em;
+  border-radius: 40px;
+  color: white;
+  padding: 0 20px;
+  transition: 0.5s ease;
+}
+.input-box .input:focus,
+.input-box .input:valid {
+  border-color: aqua;
+}
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translatey(-50%);
+  font-size: 1em;
+  color: azure;
+  pointer-events: none;
+  padding: 0 10px;
+  transition: 0.5s ease;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: 1px;
+  font-size: 0.9em;
+  background: #1f293a;
+  padding: 0 6px;
+  color: white;
+}
+.forgot-pass {
+  margin: -15px 0 10px;
+  text-align: center;
+}
+.forgot-pass a {
+  font-size: 0.95em;
+  display: flex;
+  justify-content: center;
+  color: bisque;
+  text-decoration: none;
+}
+.forgot-pass :hover {
+  text-decoration: underline;
+}
+.btn {
+  width: 100%;
+  height: 45px;
+  background: yellow;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #020814;
+}
+body img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+
+  position: absolute;
+  bottom: 622px;
+}
+footer {
+  background-color: black;
+  padding: 200px;
+  color: white;
+  left: 70px;
+  right: 70px;
+
+
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+ 
+}

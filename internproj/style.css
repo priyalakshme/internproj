@@ -1,0 +1,43 @@
+body{
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    
+}
+nav h1{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+    
+
+}
+ul li{
+    display:inline-block;
+    margin: 5px;
+}
+li a{
+    color:white;
+
+}
+nav h1{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ li a{
+    text-decoration: none;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 10px;
+}
+
